@@ -67,7 +67,6 @@ def spilt_and_merge(I_RGB):
     plt.title('Merge Image', fontsize=40)
     plt.axis('off')
 
-    plt.tight_layout()
     plt.savefig('output/r_g_b_merge.png')
     plt.show()
 
